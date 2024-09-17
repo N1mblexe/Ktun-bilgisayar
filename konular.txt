@@ -1,5 +1,24 @@
 Bilgisayar organizasyonu:	
+1-Giriş
+   bilgisayar mimarisi 
 
+2-Bilgisayarların Gelişimi
+
+3-BUS Yapıları
+
+4-Bellek Sistemleri
+
+5-Giriş Çıkış
+
+6-İşlemler
+   komut kümesi
+   adresleme yöntemleri
+   alu 
+   boru hattı prensibi
+
+7-Çok Çekirdekli CPU
+
+8-Kayan Nokta Sayılar
 
 
 Bilişim hukuku:
