@@ -46,7 +46,7 @@ Dosya Yapıları:
 
 
 
-Ototmata:
+Otomata:
 
 
 
