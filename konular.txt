@@ -1,0 +1,55 @@
+Bilgisayar organizasyonu:	
+
+
+
+Bilişim hukuku:
+
+
+
+
+Dosya Yapıları:
+	1. Sıralı Dosya Organizasyonu
+		1.1 Sıralı arama
+		1.2 İkili arama
+		1.3 Enterpolasyon arama
+		1.4 Kendi kendine organize olan sıralı arama
+			1.4.1 Move to front metodu
+			1.4.2 Transpose metodu
+			1.4.3 Count Metodu
+
+	2. Doğrudan dosya organizasyonu
+		2.1 Collision
+		2.2 Hash
+		2.3 Collision solving techniques
+			2.3.1 Linkli çarpışma
+				2.3.1.1 LISCH
+				2.3.1.2 LICH
+				2.3.1.3 EISCH
+				2.3.1.4 EICH
+			2.3.2 Linksiz Çarpışma
+				2.3.2.1 Static positioning
+				2.3.2.2 Dynamic positioning
+			2.3.3 Pseudolink çarpışma
+				2.3.3.1 Computed chaining
+
+	3. Tree organization
+		3.1 Binary tree search
+		3.2 Avl tree
+		3.3 Ipr tree
+		3.4 B tree
+		3.5 B+ tree
+
+
+
+İşletim sistemleri:
+
+
+
+
+Ototmata:
+
+
+
+
+
+Veritabanı:
