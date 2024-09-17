@@ -1,4 +1,17 @@
 Bilgisayar organizasyonu:	
+KAYNAKLAR:
+#computer organization and architecture stalling w ,pearson 10 11 versiiyonları
+
+#Bilgisiyar Mimamrisi ve tasarımı petersen ve hennesy  Nobel yayınları
+
+#Computer system architecture Mono M.
+
+#Bilgisayar Organizasyonu ve risc mimarisine giriş Bodur M.
+
+#prof Dr m. ali akçayol bilgisayar mimarisi 
+
+
+
 1-Giriş
    bilgisayar mimarisi 
 
