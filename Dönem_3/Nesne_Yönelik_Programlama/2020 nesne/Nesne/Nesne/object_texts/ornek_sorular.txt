@@ -1,0 +1,168 @@
+Kod: 
+
+public class Sequence 
+{ 
+	Sequence()
+	{ 
+		System.out.print("c "); 
+	} 
+	{ 
+		System.out.print("y "); 
+	} 
+	public static void main(String[] args)
+	{ 
+		new Sequence().go(); 
+	} 
+	void go()
+	{ 
+		System.out.print("g "); 
+	} 
+	static 
+	{ 
+		System.out.print("x ");
+	} 
+} 
+
+Çýktý ne olur?
+A) c x y g 
+B) c g x y  
+C) x c y g 
+D) x y c g 
+E) y x c g 
+F) y c g x 
+
+
+Kod:
+
+public class MyLoop
+{ 
+	public static void main(String[] args)
+	{ 
+		String[] sa = {"tom ", "jerry "}; 
+		for(int x = 0; x < 3; x++)
+		{ 
+			for(String s: sa)
+			{ 
+				System.out.print(x + " " + s); 
+				if( x == 1) break; 
+			} 
+		} 
+	} 
+} 
+
+
+Çýktý ne olur?
+A) 0 tom 0 jerry 1 tom
+B) 0 tom 0 jerry 1 tom 1 jerry
+C) 0 tom 0 jerry 2 tom 2 jerry
+D) 0 tom 0 jerry 1 tom 2 tom 2 jerry
+E) 0 tom 0 jerry 1 tom 1 jerry 2 tom 2 jerry 
+F) Compilation fails.
+
+
+
+Kod:
+
+interface Rideable 
+{
+	String getGait();
+}
+public class Camel implements Rideable 
+{
+	int weight = 2;
+	public static void main(String[] args)
+	{
+		new Camel().go(8);
+	}
+	void go(int speed)
+	{
+		++speed;
+		weight++;
+		int walkrate = speed * weight;
+		System.out.print(walkrate + getGait());
+	}
+	String getGait()
+	{
+		return " mph, lope";
+	}
+}
+
+
+Çýktý ne olur? 
+A) 16 mph, lope
+B) 18 mph, lope
+C) 24 mph, lope
+D) 27 mph, lope
+E) Compilation fails.
+F) An exception is thrown at run time.
+
+
+
+Kod:
+
+class Alpha 
+{
+	String getType() { return "alpha"; }
+}
+
+class Beta extends Alpha {
+	String getType() { return "beta"; }
+}
+class Gamma extends Beta
+{
+	String getType() { return "gamma"; }
+	public static void main(String[] args)
+	{
+		Gamma g1 = new Alpha();
+		Gamma g2 = new Beta();
+		System.out.println(g1.getType() + " " + g2.getType());
+	}
+}
+
+
+Çýktý ne olur? 
+A) alpha beta
+B) beta beta
+C) gamma gamma
+D) alpha alpha
+E) Compilation fails.
+
+
+
+
+Kod:
+
+class Feline
+{
+	public String type = "f ";
+	public Feline()
+	{
+		System.out.print("feline ");
+	}
+}
+
+public class Cougar extends Feline
+{
+	public Cougar()
+	{
+		System.out.print("cougar "); 
+	}
+	public static void main(String[] args)
+	{
+		new Cougar().go();
+	}
+	void go()
+	{
+		type = "c ";
+		System.out.print(this.type + super.type);
+	}
+}
+
+
+Çýktý ne olur? 
+A) cougar c c
+B) cougar c f
+C) feline cougar c c
+D) feline cougar c f
+E) Compilation fails
+F) An exception is thrown at run time.

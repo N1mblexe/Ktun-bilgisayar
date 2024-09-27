@@ -1,0 +1,7 @@
+Bike is in gear 1 with a cadence of 20 and travelling at a speed of 10. 
+
+Bike is in gear 5 with a cadence of 20 and travelling at a speed of 10. 
+The MountainBike has a Dual suspension.
+
+Bike is in gear 8 with a cadence of 40 and travelling at a speed of 20. 
+The RoadBike has 23 MM tires.

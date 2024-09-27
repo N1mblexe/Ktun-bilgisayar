@@ -1,0 +1,18 @@
+public interface Animal {
+    default public String identifyMyself() {
+        return "I am an animal.";
+    }
+}
+public interface EggLayer extends Animal {
+    default public String identifyMyself() {
+        return "I am able to lay eggs.";		//miras alýp son üstüne yazan.
+    }
+}
+public interface FireBreather extends Animal { }	// miras almýþ ama üstüne yazmamýþ.
+
+public class Dragon implements EggLayer, FireBreather {
+    public static void main (String... args) {
+        Dragon myApp = new Dragon();
+        System.out.println(myApp.identifyMyself());
+    }
+}

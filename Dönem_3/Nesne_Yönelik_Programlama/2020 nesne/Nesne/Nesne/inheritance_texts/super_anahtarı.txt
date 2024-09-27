@@ -1,0 +1,30 @@
+public class Superclass {
+	public int a=3;
+	public int b=4;
+    public void printMethod() {
+        System.out.println("Printed in Superclass.");
+    }
+}
+
+
+
+public class Subclass extends Superclass {
+	public int a=5;
+	public int b=3;
+    // overrides printMethod in Superclass
+    public void printMethod() {
+        super.printMethod();
+        System.out.println("Printed in Subclass");
+    }
+	public int topla()
+	{
+		return a+b;
+	}
+	
+	
+    public static void main(String[] args) {
+        Subclass s = new Subclass();
+		System.out.println(s.topla());
+        s.printMethod();    
+    }
+}

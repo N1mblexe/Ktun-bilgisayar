@@ -1,0 +1,18 @@
+class A {
+    public String getName() {
+        return "I'm A";
+    }
+}
+
+class B extends A {
+    public String getName() {
+        return "I'm B";
+    }
+}
+class C
+{
+	public static void main(String[] args) {
+		A myA = new B();
+		System.out.println(myA.getName());
+	}
+}
