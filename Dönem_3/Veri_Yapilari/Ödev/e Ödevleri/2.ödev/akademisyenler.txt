@@ -1,0 +1,8 @@
+1 1231 Prof. Dr.Suat       Masa 
+2 4567 Doc. Dr.Sevgi       Sel 
+2 6784 Doc. Dr.Sibel       Sert 
+3 4321 Dr.Ogr.uyesi Erhan  Tuna 
+3 9132 Dr.Ogr.uyesi Mahmut Tuncel 
+4 4512 Ars. Gor.Mehmet     Kuyruk 
+4 2211 Ars. Gor.Veli       Ece 
+ 
